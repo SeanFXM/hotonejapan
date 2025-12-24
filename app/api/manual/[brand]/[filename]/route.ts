@@ -40,8 +40,8 @@ export async function GET(
       })
     }
     
-    // 构建文件路径 - 确保所有参数都是字符串
-    const pathParts = [cwd, 'app', 'brands', brand, 'manual', decodedFilename].filter(p => typeof p === 'string')
+    // 构建文件路径 - 从 public/manuals 读取（静态文件，不包含在 Serverless Functions 中）
+    const pathParts = [cwd, 'public', 'manuals', brand, decodedFilename].filter(p => typeof p === 'string')
     const filePath = join(...pathParts)
     
     console.log('Manual download request:', { 
@@ -58,7 +58,7 @@ export async function GET(
     if (!existsSync(filePath)) {
       console.error(`File not found: ${filePath}`)
       // 列出目录中的文件以便调试
-      const manualDir = join(process.cwd(), 'app', 'brands', brand, 'manual')
+      const manualDir = join(process.cwd(), 'public', 'manuals', brand)
       if (existsSync(manualDir)) {
         const { readdirSync } = await import('fs/promises')
         const files = await readdirSync(manualDir)
