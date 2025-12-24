@@ -1,9 +1,15 @@
 import { NextResponse } from "next/server"
-import * as fs from "fs"
-import * as path from "path"
 import { ProductConfig } from "@/types/product-config"
 
 export async function POST(request: Request) {
+  // 在生产环境禁用此功能，避免打包大文件
+  if (process.env.VERCEL_ENV === 'production') {
+    return NextResponse.json(
+      { error: "此功能仅在开发环境可用" },
+      { status: 403 }
+    )
+  }
+
   try {
     const { config } = await request.json()
 
@@ -15,6 +21,10 @@ export async function POST(request: Request) {
     }
 
     const { brand, slug } = config.product
+
+    // 使用动态导入延迟加载文件系统操作
+    const fs = await import('fs')
+    const path = await import('path')
 
     // 创建目录
     const pageDir = path.join(process.cwd(), "app", "brands", brand, "products", slug)

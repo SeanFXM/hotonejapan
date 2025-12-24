@@ -1,10 +1,19 @@
 import { NextResponse } from "next/server"
-import * as fs from "fs"
-import * as path from "path"
 import { ProductConfig } from "@/types/product-config"
 
 export async function POST(request: Request) {
+  // 在生产环境禁用此功能，避免打包大文件
+  if (process.env.VERCEL_ENV === 'production') {
+    return NextResponse.json(
+      { error: "此功能仅在开发环境可用" },
+      { status: 403 }
+    )
+  }
+
   try {
+    // 使用动态导入延迟加载文件系统操作
+    const fs = await import('fs')
+    const path = await import('path')
     const body = await request.json()
     // 支持两种格式：{ config } 或 { brand, slug, config }
     const config = body.config || body
@@ -67,6 +76,8 @@ export default function ProductDetailPage() {
 }
 
 async function processMediaFiles(config: ProductConfig, productDir: string) {
+  const fs = await import('fs')
+  const path = await import('path')
   const imagesDir = path.join(productDir, "images")
   if (!fs.existsSync(imagesDir)) {
     fs.mkdirSync(imagesDir, { recursive: true })

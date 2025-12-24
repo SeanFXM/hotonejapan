@@ -1,0 +1,19 @@
+{
+  "functions": {
+    "app/api/manual/[brand]/[filename]/route.ts": {
+      "maxDuration": 30,
+      "memory": 1024
+    },
+    "app/api/admin/products/generate/route.ts": {
+      "maxDuration": 30,
+      "memory": 1024
+    },
+    "app/api/admin/products/save/route.ts": {
+      "maxDuration": 30,
+      "memory": 1024
+    }
+  },
+  "buildCommand": "npm run build",
+  "outputDirectory": ".next"
+}
+
