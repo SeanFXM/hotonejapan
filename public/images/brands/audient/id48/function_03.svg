@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_レイヤー_1" data-name="レイヤー_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 320 180">
+  <!-- Generator: Adobe Illustrator 29.3.1, SVG Export Plug-In . SVG Version: 2.1.0 Build 151)  -->
+  <defs>
+    <style>
+      .st0, .st1, .st2, .st3 {
+        fill: none;
+      }
+
+      .st1, .st2, .st3 {
+        stroke: #fff;
+        stroke-width: 3px;
+      }
+
+      .st1, .st3 {
+        stroke-linecap: round;
+      }
+
+      .st4 {
+        fill: #1d1d1d;
+      }
+
+      .st3 {
+        stroke-linejoin: round;
+      }
+    </style>
+  </defs>
+  <rect class="st4" width="320" height="180"/>
+  <g id="Group_13089">
+    <g id="Mic">
+      <g id="Mic-2">
+        <g id="Group_1907">
+          <g id="Rectangle_2407">
+            <rect class="st0" x="151.1" y="65" width="18.2" height="36.4" rx="9" ry="9"/>
+            <rect class="st2" x="152.6" y="66.5" width="15.2" height="33.4" rx="7.5" ry="7.5"/>
+          </g>
+          <g id="Group_1905">
+            <path id="Path_2154" class="st3" d="M175.5,84.9s-.1,7.8-.1,8.1c0,1.2-.2,2.3-.5,3.4-.3.9-.7,1.8-1.1,2.7-.4.8-.9,1.5-1.4,2.2-1.2,1.5-2.6,2.8-4.2,3.8-2.2,1.4-4.7,2.1-7.2,2.2.2,0-1.6,0-1.7,0"/>
+            <path id="Path_2156" class="st3" d="M144.7,84.9s.2,7.8.2,8.1c0,1.2.2,2.3.5,3.4.3.9.7,1.8,1.1,2.7.4.8.9,1.5,1.4,2.2,1.2,1.5,2.6,2.8,4.2,3.8,2.2,1.4,4.7,2.1,7.2,2.2-.3,0,1.6,0,1.7,0"/>
+          </g>
+          <g id="Group_1906">
+            <line id="Line_241" class="st1" x1="160.2" y1="108.1" x2="160.2" y2="114.1"/>
+            <line id="Line_242" class="st1" x1="152.9" y1="115.4" x2="167.5" y2="115.4"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <rect id="Rectangle_7879" class="st0" x="123" y="53" width="74" height="74"/>
+  </g>
+</svg>

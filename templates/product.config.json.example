@@ -1,0 +1,282 @@
+{
+  "product": {
+    "name": "产品名称",
+    "slug": "product-slug",
+    "brand": "audient",
+    "heroImage": "/images/brands/audient/product-slug/hero.jpg",
+    "introVideo": "https://youtu.be/xxx",
+    "introText": "产品介绍文本",
+    "features": [
+      "特性1",
+      "特性2",
+      "特性3"
+    ],
+    "floatingInfo": {
+      "enabled": true,
+      "productName": "产品名",
+      "category": "产品类别",
+      "price": "价格",
+      "referencePrice": "参考价格",
+      "jan": "JAN码"
+    }
+  },
+  "intro": {
+    "enabled": true,
+    "title": "10in / 14out",
+    "subtitle": "USB オーディオ・インターフェイス",
+    "video": "https://youtu.be/xxx",
+    "description": "产品描述文本",
+    "features": [
+      "特性1",
+      "特性2"
+    ],
+    "relatedLinks": [
+      {
+        "text": "链接文本",
+        "url": "#"
+      }
+    ]
+  },
+  "navigation": [
+    {
+      "id": "concept",
+      "label": "コンセプト",
+      "enabled": true
+    },
+    {
+      "id": "demo",
+      "label": "デモムービー",
+      "enabled": true
+    },
+    {
+      "id": "function",
+      "label": "主な性能",
+      "enabled": true
+    },
+    {
+      "id": "software",
+      "label": "ソフトウエア",
+      "enabled": true
+    },
+    {
+      "id": "bundle",
+      "label": "バンドルソフト",
+      "enabled": true
+    },
+    {
+      "id": "faq",
+      "label": "よくある質問",
+      "enabled": true
+    },
+    {
+      "id": "manual",
+      "label": "取扱説明書",
+      "enabled": true,
+      "isDownload": true
+    },
+    {
+      "id": "specs",
+      "label": "製品仕様",
+      "enabled": true
+    }
+  ],
+  "modules": {
+    "concept": {
+      "enabled": true,
+      "sections": [
+        {
+          "media": {
+            "type": "image",
+            "src": "/images/brands/audient/product-slug/concept_01.jpg",
+            "alt": "Concept Image 1"
+          },
+          "imagePosition": "left",
+          "title": "标题",
+          "subtitle": "副标题",
+          "content": "内容文本"
+        },
+        {
+          "media": {
+            "type": "video",
+            "src": "https://youtu.be/xxx"
+          },
+          "imagePosition": "right",
+          "title": "视频标题",
+          "content": "视频描述"
+        }
+      ]
+    },
+    "lineup": {
+      "enabled": false,
+      "products": [
+        {
+          "name": "产品名称",
+          "image": "/images/brands/audient/product-slug/lineup_01.jpg",
+          "specs": {
+            "プラグ": "1/4インチ・フォーン",
+            "長さ": "3m",
+            "価格": "オープンプライス",
+            "参考価格": "¥3,850（税別）",
+            "JAN": "6959473950135"
+          }
+        }
+      ]
+    },
+    "comparison": {
+      "enabled": false,
+      "image": "/images/brands/audient/product-slug/compare_01.png",
+      "alt": "製品比較表"
+    },
+    "demo": {
+      "enabled": true,
+      "videos": [
+        "https://youtu.be/xxx",
+        "https://youtu.be/yyy"
+      ],
+      "layout": "grid",
+      "columns": 2
+    },
+    "samples": {
+      "enabled": false,
+      "samples": [
+        {
+          "name": "Sample Name",
+          "preset": "001",
+          "audioUrl": "https://example.com/audio.mp3",
+          "description": "Sample description"
+        }
+      ]
+    },
+    "usage": {
+      "enabled": false,
+      "examples": [
+        {
+          "number": "01",
+          "title": "使用例标题",
+          "image": "/images/brands/audient/product-slug/example_01.gif",
+          "alt": "使用例1"
+        }
+      ]
+    },
+    "function": {
+      "enabled": true,
+      "items": [
+        {
+          "number": "①",
+          "image": "/images/brands/audient/product-slug/function_01.jpg",
+          "title": "功能标题",
+          "subtitle": "功能副标题",
+          "description": "功能描述",
+          "alt": "功能图片"
+        }
+      ]
+    },
+    "controls": {
+      "enabled": false,
+      "images": [
+        "/images/brands/audient/product-slug/control_01.jpg",
+        "/images/brands/audient/product-slug/control_02.jpg"
+      ]
+    },
+    "block-diagram": {
+      "enabled": false,
+      "image": "/images/brands/audient/product-slug/block_01.jpg",
+      "alt": "ブロック図"
+    },
+    "connections": {
+      "enabled": false,
+      "examples": [
+        {
+          "title": "连接示例标题",
+          "image": "/images/brands/audient/product-slug/connection_01.png",
+          "description": "连接描述",
+          "alt": "连接示例"
+        }
+      ]
+    },
+    "operation": {
+      "enabled": false,
+      "items": [
+        {
+          "media": {
+            "type": "image",
+            "src": "/images/brands/audient/product-slug/operation_01.png",
+            "alt": "操作说明"
+          },
+          "imagePosition": "left",
+          "title": "操作标题",
+          "content": "操作说明内容"
+        }
+      ]
+    },
+    "software": {
+      "enabled": true,
+      "headerImage": "/images/brands/audient/product-slug/software_01.png",
+      "items": [
+        {
+          "title": "Firmware 1.2.0",
+          "isNew": true,
+          "content": "更新内容",
+          "image": "/images/brands/audient/product-slug/software_02.png",
+          "features": [
+            "新機能1",
+            "新機能2"
+          ],
+          "improvements": [
+            "改善点1",
+            "改善点2"
+          ],
+          "downloadUrl": "https://example.com/download",
+          "downloadText": "ダウンロード",
+          "notice": "注意事項",
+          "linkText": "詳細はこちら",
+          "linkUrl": "https://example.com/details"
+        }
+      ]
+    },
+    "handlesoft": {
+      "enabled": true
+    },
+    "faq": {
+      "enabled": true,
+      "items": [
+        {
+          "number": "①",
+          "question": "よくある質問",
+          "answer": "回答内容",
+          "images": [
+            "/images/brands/audient/product-slug/faq_01.png"
+          ]
+        }
+      ]
+    },
+    "manual": {
+      "enabled": true,
+      "downloadUrl": "https://example.com/manual.pdf"
+    },
+    "specs": {
+      "enabled": true,
+      "leftColumn": [
+        {
+          "title": "マイク・プリアンプ",
+          "items": {
+            "マイクゲインレンジ": "0 to 60dB",
+            "ラインゲインレンジ": "-10 to 50dB",
+            "ファンタム電源": "48v +/-4v @ 10mA/Channel"
+          }
+        }
+      ],
+      "rightColumn": [
+        {
+          "title": "ヘッドホン出力",
+          "items": {
+            "最大出力レベル": "+14dBu",
+            "出力インピーダンス": "<50Ω unbalanced",
+            "周波数特性": "±0.5dB 10Hz to Fs/2"
+          }
+        }
+      ]
+    }
+  }
+}
+

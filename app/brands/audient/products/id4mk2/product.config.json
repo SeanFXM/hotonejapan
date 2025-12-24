@@ -1,0 +1,47 @@
+{
+  "product": {
+    "name": "iD4mk II",
+    "slug": "id4mk2",
+    "brand": "audient",
+    "heroImage": "/images/brands/audient/iD4mkⅡ/hero.jpg",
+    "floatingInfo": {
+      "enabled": true,
+      "productName": "iD4mkⅡ",
+      "category": "オーディオ・インターフェイス",
+      "price": "オープンプライス",
+      "referencePrice": "￥36,080",
+      "jan": "5060374260436"
+    }
+  },
+  "navigation": [
+    {
+      "id": "intro",
+      "label": "イントロ",
+      "enabled": true,
+      "isDownload": false
+    }
+  ],
+  "modules": {},
+  "intro": {
+    "enabled": true,
+    "title": "2in / 2out ",
+    "subtitle": "USB オーディオ・インターフェイス",
+    "description": "<p class=\"title\" style=\"margin-bottom: 10px; padding-bottom: 1em; border-style: initial; border-color: initial; outline: 0px; background: transparent; font-size: 19.275px; color: rgb(77, 77, 77); font-family: &quot;Noto Sans JP&quot;, sans-serif; text-align: justify; white-space-collapse: collapse;\">さらに進化したベストチョイス</p><h1 style=\"padding-bottom: 1em; border-style: initial; border-color: initial; outline: 0px; background: transparent; font-family: &quot;Noto Sans JP&quot;, sans-serif; line-height: 1.6em; color: rgb(77, 77, 77); text-align: justify; white-space-collapse: collapse;\">Audientが送り出すもっともパワフルなオーディオ・インターフェイスが、さらに進化を遂げました。最新世代のiD44は、落ち着いたスモークグレーのボディに、向上したオーディオ・パフォーマンスを備え、さらに便利な機能も追加されました。</h1><h2 style=\"padding-bottom: 1em; border-style: initial; border-color: initial; outline: 0px; background: transparent; font-family: &quot;Noto Sans JP&quot;, sans-serif; line-height: 1.6em; color: rgb(77, 77, 77); text-align: justify; white-space-collapse: collapse;\">今回iD44mkⅡに追加されたループバック機能とデュアル・ヘッドフォン出力は、4つのAudientコンソール・マイクプリ、最高クラスのコンバーター、拡張性を高めるADAT入出力、バランス・インサートと組み合わせることで、Audientが誇るスタジオ・コンソール級のオーディオ・パフォーマンスをデスクトップにもたらします。</h2><div class=\"P_float_info\" style=\"margin-top: 40px; margin-right: 50px; border-style: initial; border-color: initial; outline: 0px; background: transparent; width: calc(50% - 50px); float: left; color: rgb(77, 77, 77); font-family: &quot;Noto Sans JP&quot;, sans-serif; font-size: 15px; white-space-collapse: collapse;\"></div>",
+    "features": [
+      "<ul class=\"marker_check_pp\" style=\"margin-top: 1em; margin-bottom: 1em; margin-left: 2.6em; border-style: initial; border-color: initial; outline: 0px; background: transparent; list-style-position: outside; color: rgb(77, 77, 77); font-family: &quot;Noto Sans JP&quot;, sans-serif; font-size: 15px; text-align: justify; white-space-collapse: collapse;\"><li style=\"padding-top: 0.2em; padding-bottom: 0.2em; border-style: initial; border-color: initial; outline: 0px; background: transparent; list-style: none;\">4系統のClass-A Audientコンソール マイク・プリアンプ</li><li style=\"padding-top: 0.2em; padding-bottom: 0.2em; border-style: initial; border-color: initial; outline: 0px; background: transparent; list-style: none;\">24-bit / 96kHzクラス最高品位のAD / DA コンバーター</li><li style=\"padding-top: 0.2em; padding-bottom: 0.2em; border-style: initial; border-color: initial; outline: 0px; background: transparent; list-style: none;\">デジタル拡張が可能な2系統 ADAT入出力</li><li style=\"padding-top: 0.2em; padding-bottom: 0.2em; border-style: initial; border-color: initial; outline: 0px; background: transparent; list-style: none;\">2系統のディスクリートJFET楽器入力</li><li style=\"padding-top: 0.2em; padding-bottom: 0.2em; border-style: initial; border-color: initial; outline: 0px; background: transparent; list-style: none;\">2系統のバランス・インサート</li><li style=\"padding-top: 0.2em; padding-bottom: 0.2em; border-style: initial; border-color: initial; outline: 0px; background: transparent; list-style: none;\">専用DAC採用、高電流型のヘッドフォン・セクション</li><li style=\"padding-top: 0.2em; padding-bottom: 0.2em; border-style: initial; border-color: initial; outline: 0px; background: transparent; list-style: none;\">独立ステレオ・ヘッドフォン出力</li><li style=\"padding-top: 0.2em; padding-bottom: 0.2em; border-style: initial; border-color: initial; outline: 0px; background: transparent; list-style: none;\">独立デュアル・ステレオ・ヘッドフォン出力</li><li style=\"padding-top: 0.2em; padding-bottom: 0.2em; border-style: initial; border-color: initial; outline: 0px; background: transparent; list-style: none;\">メイン＆Alt出力</li><li style=\"padding-top: 0.2em; padding-bottom: 0.2em; border-style: initial; border-color: initial; outline: 0px; background: transparent; list-style: none;\">ループバック機能</li><li style=\"padding-top: 0.2em; padding-bottom: 0.2em; border-style: initial; border-color: initial; outline: 0px; background: transparent; list-style: none;\">スクロール・コントロール</li><li style=\"padding-top: 0.2em; padding-bottom: 0.2em; border-style: initial; border-color: initial; outline: 0px; background: transparent; list-style: none;\">ユーザー設定可能な3ファンクション・キー</li><li style=\"padding-top: 0.2em; padding-bottom: 0.2em; border-style: initial; border-color: initial; outline: 0px; background: transparent; list-style: none;\">トークバック、Dim &amp; Cutコントロール</li><li style=\"padding-top: 0.2em; padding-bottom: 0.2em; border-style: initial; border-color: initial; outline: 0px; background: transparent; list-style: none;\">+48V、Pad、HPFスイッチ</li><li style=\"padding-top: 0.2em; padding-bottom: 0.2em; border-style: initial; border-color: initial; outline: 0px; background: transparent; list-style: none;\">超ローレイテンシーのDSPミキサー</li><li style=\"padding-top: 0.2em; padding-bottom: 0.2em; border-style: initial; border-color: initial; outline: 0px; background: transparent; list-style: none;\">ワードクロック出力</li><li style=\"padding-top: 0.2em; padding-bottom: 0.2em; border-style: initial; border-color: initial; outline: 0px; background: transparent; list-style: none;\">スタンドアローン動作対応</li><li style=\"padding-top: 0.2em; padding-bottom: 0.2em; border-style: initial; border-color: initial; outline: 0px; background: transparent; list-style: none;\">USB 2.0対応</li><li style=\"padding-top: 0.2em; padding-bottom: 0.2em; border-style: initial; border-color: initial; outline: 0px; background: transparent; list-style: none;\">フルメタル筐体</li><li style=\"padding-top: 0.2em; padding-bottom: 0.2em; border-style: initial; border-color: initial; outline: 0px; background: transparent; list-style: none;\">パワースイッチ</li><li style=\"padding-top: 0.2em; padding-bottom: 0.2em; border-style: initial; border-color: initial; outline: 0px; background: transparent; list-style: none;\">豊富なバンドル・ソフトウェア＆プラグイン</li><li style=\"padding-top: 0.2em; padding-bottom: 0.2em; border-style: initial; border-color: initial; outline: 0px; background: transparent; list-style: none;\">ARC フリー・バンドル・ソフトウェア＆プラグイン</li><li style=\"padding-top: 0.2em; padding-bottom: 0.2em; border-style: initial; border-color: initial; outline: 0px; background: transparent; list-style: none;\">Mac M1 &amp; M1 Pro &amp; M1 Max 対応</li><li style=\"padding-top: 0.2em; padding-bottom: 0.2em; border-style: initial; border-color: initial; outline: 0px; background: transparent; list-style: none;\">mac OS 13.X（Ventura）、windows 11に対応</li></ul><p class=\"font90\" style=\"padding-bottom: 1em; border-style: initial; border-color: initial; outline: 0px; background: transparent; font-size: 13.5px; color: rgb(77, 77, 77); font-family: &quot;Noto Sans JP&quot;, sans-serif; text-align: justify; white-space-collapse: collapse;\">※最新のドライバーをお使いください</p>"
+    ],
+    "relatedLinks": [
+      {
+        "text": "audient製品　OS対応状況のお知らせ",
+        "url": "",
+        "icon": ""
+      }
+    ],
+    "media": {
+      "type": "image",
+      "src": "/images/brands/audient/iD4mkⅡ/intro_01.jpg"
+    },
+    "image": "/images/brands/audient/iD4mkⅡ/intro_01.jpg",
+    "video": "public/images/brands/audient/iD4mkⅡ/intro_01.jpg"
+  }
+}
